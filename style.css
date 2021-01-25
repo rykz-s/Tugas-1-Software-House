@@ -1,0 +1,248 @@
+    @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        list-style: none;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    body {
+        background: #dcf8f3;
+        margin: 0;
+    }
+    
+    .nama {
+        padding: 10px;
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin-left: 90px;
+    }
+    
+    .nama h1 {
+        margin-top: 10px;
+        color: black;
+        font-size: 20pt;
+    }
+    
+    .nama h3 {
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    
+    .foto {
+        margin: 0;
+        display: block;
+        top: 50%;
+    }
+    
+    .foto img {
+        border-radius: 30px;
+        display: block;
+        margin-left: 100px;
+        margin-top: 20px;
+    }
+    
+    #horizontal-line {
+        /* width: 1px; */
+        height: 975px;
+        border-left: 3px solid black;
+        top: 0;
+        margin-left: 496px;
+        position: absolute;
+    }
+    
+    i {
+        margin-left: 100px;
+        margin-bottom: 5px;
+    }
+    
+    .tab {
+        display: inline-block;
+        margin-left: 32px;
+    }
+    
+    .tab-1 {
+        display: inline-block;
+        margin-left: 64px;
+        margin-top: 2px;
+    }
+    
+    label {
+        display: block;
+        padding: 0 0 5px 2px;
+        text-transform: uppercase;
+        font-weight: 400;
+        text-shadow: 0 1px 0 rgba(255, 255, 255, 0.8);
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+    }
+    
+    .about-me {
+        margin-left: 100px;
+        margin-top: 5px;
+    }
+    
+    .about-me h2 {
+        margin-top: 5px;
+        padding: 2px;
+    }
+    
+    .about-me h2 p {
+        padding-top: 5px;
+        margin-top: 5px;
+    }
+    
+    .tombol {
+        margin-top: 35px;
+        margin-left: 50px;
+        text-align: center;
+    }
+    
+    .tombol i {
+        float: right;
+    }
+    
+    .side-kiri {
+        width: 485px;
+        float: left;
+    }
+    
+    .profil {
+        text-align: center;
+        margin-left: 20px;
+    }
+    
+    .content {
+        width: 720px;
+        float: left;
+        margin: 25px 30px;
+        padding: 5px;
+    }
+    
+    .horizontal_line {
+        margin: 30px 5px 5px 34px;
+        height: 26px;
+        position: relative;
+    }
+    
+    .line_left,
+    .line_right {
+        border-top: 1px solid #434247;
+        width: 305px;
+        margin-top: 13px;
+    }
+    
+    .line_left {
+        float: left;
+    }
+    
+    .line_right {
+        float: right;
+    }
+    
+    .left_circle,
+    .central_circle,
+    .right_circle {
+        background: rgb(69, 68, 73);
+        background: rgba(43, 42, 42, 0.15);
+        position: absolute;
+        border-radius: 50px;
+    }
+    
+    .left_circle,
+    .right_circle {
+        width: 13px;
+        height: 13px;
+        top: 7px;
+    }
+    
+    .left_circle {
+        left: 314px;
+    }
+    
+    .central_circle {
+        width: 26px;
+        height: 26px;
+        top: 0px;
+        left: 322px;
+    }
+    
+    .right_circle {
+        left: 343px;
+    }
+    
+    .pendidikan-pengalaman {
+        display: list-item;
+        margin: 3px;
+    }
+    
+    .pendidikan-pengalaman li {
+        font-size: 14px;
+        margin-left: 10px;
+        list-style-type: circle;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        letter-spacing: 1px;
+    }
+    
+    .skill-bars {
+        list-style: none;
+        margin: 50px 0 30px;
+    }
+    
+    .skill-bars li {
+        height: 6px;
+        background: pink;
+        width: 100%;
+        margin-bottom: 65px;
+        padding: 0;
+        position: relative;
+        margin-top: 5px;
+    }
+    
+    .skill-bars li strong {
+        position: absolute;
+        left: 0;
+        top: -35px;
+        color: black;
+        font-size: 14px;
+        /* line-height: 2.4rem; */
+    }
+    
+    .skill-bars li .progress {
+        background: #ff8da1;
+        position: relative;
+        height: 100%;
+    }
+    
+    .skill-bars li .progress span {
+        position: absolute;
+        right: 0;
+        top: -35px;
+        display: block;
+        color: white;
+        font-size: 14px;
+        line-height: 1;
+        background: #ff8da1;
+        padding: 5px 5px;
+        border-radius: 3px;
+    }
+    
+    .skill-bars li .progress span::after {
+        position: absolute;
+        left: 50%;
+        bottom: -5px;
+        margin-left: -5px;
+        border-right: 5px solid transparent;
+        border-left: 5px solid transparent;
+        border-top: 5px solid #ff8da1;
+        content: "";
+    }
+    
+    .skill-bars li .understand {
+        width: 45%;
+    }
+    
+    .skill-bars li .apply {
+        width: 65%;
+    }
